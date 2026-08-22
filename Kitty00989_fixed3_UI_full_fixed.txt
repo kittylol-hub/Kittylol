@@ -2,18 +2,18 @@
 -- KITTYLOL UI (Kitty00989_fixed3 API)
 -- =========================================================
 local Library = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/kittylol-hub/Ui/refs/heads/main/Kitty00989_fixed3.txt"
+    "https://raw.githubusercontent.com/kittylol-hub/Ui/refs/heads/main/Kitty00989_fixed3_kittylol_beta_toggle.lua"
 ))()
 
 Library:init("Kittylol")
 
-local CombatTab   = Library:create_tab("Combat", "sword")
-local DetectionTab = Library:create_tab("Detection", "radar")
-local PlayerTab   = Library:create_tab("Player", "user")
-local VisualsTab  = Library:create_tab("Visuals", "eye")
-local MiscTab     = Library:create_tab("Misc", "settings")
-local ImmortalTab = Library:create_tab("Immortal", "shield")
-local SettingsTab = Library:create_tab("Settings", "settings")
+local CombatTab   = Library:create_tab("Combat", "rbxassetid://10734975486")
+local DetectionTab = Library:create_tab("Detection", "rbxassetid://10734951847")
+local PlayerTab   = Library:create_tab("Player", "rbxassetid://126017907477623")
+local VisualsTab  = Library:create_tab("Visuals", "rbxassetid://10723346959")
+local MiscTab     = Library:create_tab("Misc", "rbxassetid://7733917120")
+local ImmortalTab = Library:create_tab("Immortal", "rbxassetid://10734962068")
+local SettingsTab = Library:create_tab("Settings", "rbxassetid://6031280882")
 
 -- Compatibility wrappers: giữ nguyên phần logic/UI bên dưới, nhưng gọi API mới.
 function CreateModule(tab, config)
